@@ -3,6 +3,7 @@
 1. Add this as a remote from a kernel checkout.
 ```sh
 $ git remote add --track master clang-built-linux git@github.com:ClangBuiltLinux/linux.git
+$ git fetch clang-built-linux
 $ git remote -v
 ...
 clang-built-linux	git@github.com:ClangBuiltLinux/linux.git (fetch)
