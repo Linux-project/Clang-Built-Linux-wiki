@@ -1,5 +1,3 @@
-# TODO: incomplete
-
 1. Add this as a remote from a kernel checkout.
 ```sh
 $ git remote add --track master clang-built-linux git@github.com:ClangBuiltLinux/linux.git
@@ -12,6 +10,10 @@ clang-built-linux	git@github.com:ClangBuiltLinux/linux.git (push)
 2. Pull from torvalds/linux
 3. Push to clang-built-linux/master
 
-Do not force push to master.
+```sh
+$ git push clang-built-linux
+```
 
-### TODO: AUTOMATE (issue #1)
+Do not force push to master.  If there's some kind of conflict, you likely have done something wrong.
+
+### TODO: AUTOMATE ([issue #1](https://github.com/ClangBuiltLinux/linux/issues/1))
