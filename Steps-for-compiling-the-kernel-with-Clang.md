@@ -1,6 +1,8 @@
 ## Dependencies
 
-For cross compiling, we still defer to binutils for cross-assembling and cross-linking:
+We still defer to binutils for assembling and linking (though we happily accept bug reports from trying LLVM's equivalents).
+
+For cross-compiling, you need to have the cross-target versions of binutils in your `$PATH`:
 ```
 $ sudo apt install binutils-aarch64-linux-gnu
 ```
