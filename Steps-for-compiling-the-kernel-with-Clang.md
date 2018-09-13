@@ -1,6 +1,9 @@
 ## Dependencies
 
-TODO
+For cross compiling, we still defer to binutils for cross-assembling and cross-linking:
+```
+$ sudo apt install binutils-aarch64-linux-gnu
+```
 
 Note: The minimal version of Clang required to build the kernel is hard to exactly pin down, due to the large combinations of kernel [LTS] branch, target ISA, kernel configurations.  Test your combination, and report issues in our [bug tracker](https://github.com/ClangBuiltLinux/linux/issues).  Clang 4 was used to ship a Clang built arm64 kernel on the Google Pixel phone.
 
