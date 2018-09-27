@@ -20,7 +20,7 @@ You can check your list of remotes with `git remote -v`.  Typically, your origin
 
 # Workflow
 
-Adding the remote is a one and done routine for a given git repository checkout.  For each set of commits, you SHOULD ALWAYS work out of a new branch.  Branches are free and cheap to create, and most importantly, you can abandon them easily if they don't work out.  The typical workflow should look like:
+Adding the remote is a one and done routine for a given git repository checkout.  For each set of commits, you SHOULD ALWAYS work out of a new branch.  Branches are free and cheap to create, and most importantly, you can abandon them easily if they don't work out.  Don't commit new features to the master branch (most github projects lock this branch).  The typical workflow should look like:
 
 ```sh
 $ git checkout -b <helpful branch name about the feature so you remember in a few months what commits are here>
