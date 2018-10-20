@@ -15,5 +15,3 @@ $ git push clang-built-linux
 ```
 
 Do not force push to master.  If there's some kind of conflict, you likely have done something wrong.
-
-### TODO: AUTOMATE ([issue #1](https://github.com/ClangBuiltLinux/linux/issues/1))
