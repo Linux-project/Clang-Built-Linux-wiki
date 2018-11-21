@@ -18,7 +18,7 @@ $ make CC=clang HOSTCC=clang
 ## Cross compiling
 
 ```
-$ ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make CC=clang
+$ ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make CC=clang HOSTCC=clang
 ```
 
 Note that unlike gcc/binutils, clang ships with support for all backends by default (you can configure them off, but this is considered an antipattern).  `ARCH=` specifies the kernel's notion of target ISA. These can be found in the kernel sources under the `arch/` directory.  `CROSS_COMPILE` is a prefix for binutils tools.  KBUILD will literally run `$ $CROSS_COMPILE-as` and `$ $CROSS_COMPILE-ld`, so verify that you've installed the correct cross version of binutils and they're accessible from your `$PATH`.
