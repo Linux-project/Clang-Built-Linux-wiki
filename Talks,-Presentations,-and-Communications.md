@@ -6,11 +6,11 @@
 - LLVM US Developer's Meeting 2017 Keynote [slides](https://llvm.org/devmtg/2017-10/slides/Hines-CompilingAndroidKeynote.pdf), [video](https://www.youtube.com/watch?v=6l4DtR5exwo)
 - Linaro Connect 2018 [slides](https://s3.amazonaws.com/connect.linaro.org/yvr18/presentations/yvr18-505.pdf), [video](https://youtu.be/eLN5SB_p6vI)
 - Linux Plumbers Conference 2018
--- [slides](https://docs.google.com/presentation/d/1vJrsJ7fRSi6uidJWVSI2bg8aR19gXeshLgD0tcXfMqg/edit?usp=sharing)
--- [video](https://www.youtube.com/watch?v=SSWUrWqnSz0)
--- [Phoronix article](https://www.phoronix.com/scan.php?page=news_item&px=Clang-Kernel-2018)
--- [Clang BoF Video](https://www.youtube.com/watch?v=-_wFcgBp0Y8&index=3&list=PLVsQ_xZBEyN2tq96cAph0Dcy6gJVq_Wqw&t=10455s)
--- [Clang userspace Video](https://www.youtube.com/watch?v=-_wFcgBp0Y8&index=3&list=PLVsQ_xZBEyN2tq96cAph0Dcy6gJVq_Wqw&t=12294s) via @berolinaro 
+  - [slides](https://docs.google.com/presentation/d/1vJrsJ7fRSi6uidJWVSI2bg8aR19gXeshLgD0tcXfMqg/edit?usp=sharing)
+  - [video](https://www.youtube.com/watch?v=SSWUrWqnSz0)
+  - [Phoronix article](https://www.phoronix.com/scan.php?page=news_item&px=Clang-Kernel-2018)
+  - [Clang BoF Video](https://www.youtube.com/watch?v=-_wFcgBp0Y8&index=3&list=PLVsQ_xZBEyN2tq96cAph0Dcy6gJVq_Wqw&t=10455s)
+  - [Clang userspace Video](https://www.youtube.com/watch?v=-_wFcgBp0Y8&index=3&list=PLVsQ_xZBEyN2tq96cAph0Dcy6gJVq_Wqw&t=12294s) via @berolinaro
 
 # Blog Posts
 - [Control Flow Integrity in the Android kernel](https://android-developers.googleblog.com/2018/10/control-flow-integrity-in-android-kernel.html)
