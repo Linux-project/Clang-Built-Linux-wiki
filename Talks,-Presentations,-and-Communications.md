@@ -11,6 +11,7 @@
   - [Phoronix article](https://www.phoronix.com/scan.php?page=news_item&px=Clang-Kernel-2018)
   - [Clang BoF Video](https://www.youtube.com/watch?v=-_wFcgBp0Y8&index=3&list=PLVsQ_xZBEyN2tq96cAph0Dcy6gJVq_Wqw&t=10455s)
   - [Clang userspace Video](https://www.youtube.com/watch?v=-_wFcgBp0Y8&index=3&list=PLVsQ_xZBEyN2tq96cAph0Dcy6gJVq_Wqw&t=12294s) via @berolinaro
+- LinuxConf AU 2019 [abstract](https://linux.conf.au/schedule/presentation/210/)
 
 # Blog Posts
 - [Control Flow Integrity in the Android kernel](https://android-developers.googleblog.com/2018/10/control-flow-integrity-in-android-kernel.html)
