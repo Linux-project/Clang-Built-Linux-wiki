@@ -6,7 +6,6 @@ $ cd llvm-project
 $ mkdir build
 $ cd build
 $ cmake -G Ninja \
-        -DCLANG_REPOSITORY_STRING="https://github.com/llvm/llvm-project $(git -C .. show -s --format=%H)" \
         -DCMAKE_BUILD_TYPE=Release \
         -DLLVM_ENABLE_PROJECTS="clang;lld" \
         -DLLVM_ENABLE_WARNINGS=OFF \
@@ -27,7 +26,6 @@ cmake -Wno-dev \
       -DCLANG_ENABLE_ARCMT=OFF \
       -DCLANG_ENABLE_STATIC_ANALYZER=OFF \
       -DCLANG_PLUGIN_SUPPORT=OFF \
-      -DCLANG_REPOSITORY_STRING="https://github.com/llvm/llvm-project $(git -C .. show -s --format=%H)" \
       -DCMAKE_BUILD_TYPE=Release \
       -DCMAKE_C_COMPILER="$(command -v clang || command -v gcc)" \
       -DCMAKE_C_FLAGS="-O2 -march=native -mtune=native" \
