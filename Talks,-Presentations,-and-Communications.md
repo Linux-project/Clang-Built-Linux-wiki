@@ -12,6 +12,10 @@
   - [Clang BoF Video](https://www.youtube.com/watch?v=-_wFcgBp0Y8&index=3&list=PLVsQ_xZBEyN2tq96cAph0Dcy6gJVq_Wqw&t=10455s)
   - [Clang userspace Video](https://www.youtube.com/watch?v=-_wFcgBp0Y8&index=3&list=PLVsQ_xZBEyN2tq96cAph0Dcy6gJVq_Wqw&t=12294s) via @berolinaro
 - LinuxConf AU 2019 [abstract](https://linux.conf.au/schedule/presentation/210/) [video](https://www.youtube.com/watch?v=6d6NGrSHyRE)
+- FOSDEM '19
+  - [abstract](https://fosdem.org/2019/schedule/event/llvm_kernel/)
+  - slides
+  - video
 
 # Blog Posts
 - [Control Flow Integrity in the Android kernel](https://android-developers.googleblog.com/2018/10/control-flow-integrity-in-android-kernel.html)
