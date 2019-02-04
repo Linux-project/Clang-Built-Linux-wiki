@@ -14,8 +14,8 @@
 - LinuxConf AU 2019 [abstract](https://linux.conf.au/schedule/presentation/210/) [video](https://www.youtube.com/watch?v=6d6NGrSHyRE)
 - FOSDEM '19
   - [abstract](https://fosdem.org/2019/schedule/event/llvm_kernel/)
-  - slides
-  - video
+  - [slides](https://fosdem.org/2019/schedule/event/llvm_kernel/attachments/slides/3330/export/events/attachments/llvm_kernel/slides/3330/clang_linux_fosdem_19.pdf)
+  - video ([mp4](https://video.fosdem.org/2019/K.4.201/llvm_kernel.mp4), [webm](https://ftp.heanet.ie/mirrors/fosdem-video/2019/K.4.201/llvm_kernel.webm))
 
 # Blog Posts
 - [Control Flow Integrity in the Android kernel](https://android-developers.googleblog.com/2018/10/control-flow-integrity-in-android-kernel.html)
