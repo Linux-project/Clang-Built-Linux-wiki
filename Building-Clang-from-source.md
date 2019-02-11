@@ -18,7 +18,7 @@ If you want Clang to compile faster and the time it takes to compile other proje
 * Uses `-march=native -mtune=native` to generate code optimized for your current processor.
 * Turns off a lot of unnecessary features like tests, examples, and other things that the kernel doesn't care about.
 * Only enables the architectures that we are currently testing (aarch64, arm32, powerpc, x86).
-* Uses `ld.lld` for linking (which has been shown to be MUCH faster than `ld.bfd` and slightly faster than `ld.gold`), falling back to `ld.gold` then `ld.bfd` if it isn't present.
+* Uses `ld.lld` for linking when building with Clang (which has [been shown to be MUCH faster](https://youtu.be/9_7exO60EA8?t=454) than `ld.bfd` and slightly faster than `ld.gold`), falling back to `ld.gold` then `ld.bfd` if it isn't present.
 
 ```
 cmake -Wno-dev \
@@ -42,7 +42,7 @@ cmake -Wno-dev \
       -DLLVM_INCLUDE_TESTS=OFF \
       -DLLVM_INCLUDE_DOCS=OFF \
       -DLLVM_TARGETS_TO_BUILD="AArch64;ARM;PowerPC;X86" \
-      -DLLVM_USE_LINKER="$(for LD in lld gold bfd; do command -v ld.${LD} &>/dev/null && break; done; echo ${LD})" \
+      -DLLVM_USE_LINKER="$(if command -v clang &>/dev/null; for LD in lld gold bfd; do LD=$(command -v ld.${LD}); [[ -n ${LD} ]] && break; done; echo ${LD}; fi)" \
       ../llvm
 ```
 
