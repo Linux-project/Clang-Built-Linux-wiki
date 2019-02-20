@@ -3,6 +3,7 @@
 
 # Talks
 - **Linux Plumbers Conference 2017**
+  - [abstract](https://blog.linuxplumbersconf.org/2017/ocw/proposals/4799)
   - [slides](https://blog.linuxplumbersconf.org/2017/ocw//system/presentations/4799/original/LPC%202017-%20Clang%20built%20kernels.pdf)
   - [LWN article](https://lwn.net/Articles/734071/)
 - **LLVM US Developer's Meeting 2017 Keynote**
