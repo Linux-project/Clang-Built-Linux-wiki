@@ -7,7 +7,7 @@ $ mkdir build
 $ cd build
 $ cmake -G Ninja \
         -DCMAKE_BUILD_TYPE=Release \
-        -DLLVM_ENABLE_PROJECTS="clang;lld" \
+        -DLLVM_ENABLE_PROJECTS="clang;lld;compiler-rt" \
         -DLLVM_ENABLE_WARNINGS=OFF \
         ../llvm
 $ ninja
@@ -31,9 +31,10 @@ cmake -Wno-dev \
       -DCMAKE_C_FLAGS="-O2 -march=native -mtune=native" \
       -DCMAKE_CXX_COMPILER="$(command -v clang++ || command -v g++)" \
       -DCMAKE_CXX_FLAGS="-O2 -march=native -mtune=native" \
+      -DCOMPILER_RT_BUILD_LIBFUZZER=OFF \
       -DLLVM_ENABLE_BINDINGS=OFF \
       -DLLVM_EXTERNAL_CLANG_TOOLS_EXTRA_SOURCE_DIR="" \
-      -DLLVM_ENABLE_PROJECTS="clang;lld" \
+      -DLLVM_ENABLE_PROJECTS="clang;lld;compiler-rt" \
       -DLLVM_CCACHE_BUILD=ON \
       -DLLVM_ENABLE_OCAMLDOC=OFF \
       -DLLVM_ENABLE_TERMINFO=OFF \
