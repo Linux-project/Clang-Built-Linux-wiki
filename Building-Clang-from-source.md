@@ -13,7 +13,7 @@ $ cmake -G Ninja \
 $ ninja
 ```
 
-If you want Clang to compile faster and the time it takes to compile other projects to potentially decrease, you can run the following command, which:
+If you want Clang to compile faster and the time it takes to compile other projects to potentially decrease, you can run the following `cmake` command instead of the one above, which:
 * Uses `clang` if it is installed to initially build Clang, falling back to `gcc` if it isn't present.
 * Uses `-march=native -mtune=native` to generate code optimized for your current processor.
 * Turns off a lot of unnecessary features like tests, examples, and other things that the kernel doesn't care about.
