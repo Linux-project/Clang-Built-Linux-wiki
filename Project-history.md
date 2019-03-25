@@ -1,3 +1,17 @@
-TODO:
-
-first announcement: https://lists.llvm.org/pipermail/cfe-dev/2010-October/011711.html
+- 2009
+  - [LLVM META bug filed](https://bugs.llvm.org/show_bug.cgi?id=4068)
+- 2010
+  - [LLVM cfe-dev post about successful build+boot](https://lists.llvm.org/pipermail/cfe-dev/2010-October/011711.html)
+- 2011
+  - [LLL Project](https://github.com/lll-project)
+- 2012-2016
+  - LLVMLinux Project
+    - [commits](http://git.linuxfoundation.org/?p=llvmlinux.git;a=shortlog;pg=22)
+    - [archive](https://web.archive.org/web/20171024235142/http://llvm.linuxfoundation.org/index.php/Main_Page)
+- 2016 Android Userspace 100% Clang (Google Pixel) (kernel was working at this time, but was punted to Pixel 2)
+- 2017 Google Pixel 2 ships first Clang built kernel
+- 2018 ChromeOS starts shipping Clang built kernels
+  - [start](https://chromium-review.googlesource.com/c/chromiumos/overlays/chromiumos-overlay/+/809774/)
+  - [moved to default](https://chromium-review.googlesource.com/c/chromiumos/overlays/chromiumos-overlay/+/1294370)
+- 2018 Google Pixel 3 enables kernel LTO & CFI
+- 2019 LLD, llvm-ar enabled
