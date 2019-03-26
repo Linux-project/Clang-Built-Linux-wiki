@@ -26,7 +26,7 @@
   - [slides](https://fosdem.org/2019/schedule/event/llvm_kernel/attachments/slides/3330/export/events/attachments/llvm_kernel/slides/3330/clang_linux_fosdem_19.pdf)
   - video ([mp4](https://video.fosdem.org/2019/K.4.201/llvm_kernel.mp4), [webm](https://ftp.heanet.ie/mirrors/fosdem-video/2019/K.4.201/llvm_kernel.webm))
   - [Phoronix Article](https://www.phoronix.com/scan.php?page=news_item&px=Google-2019-Clang-Kernel)
-- **Linaro Connect 2019 **
+- **Linaro Connect 2019**
   - [abstract](https://bkk19.sched.com/event/L2H5/bkk19-112-building-the-linux-kernel-with-clang)
 
 # Blog Posts
