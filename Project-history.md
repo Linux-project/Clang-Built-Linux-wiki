@@ -9,7 +9,10 @@
     - [commits](http://git.linuxfoundation.org/?p=llvmlinux.git;a=shortlog;pg=22)
     - [archive](https://web.archive.org/web/20171024235142/http://llvm.linuxfoundation.org/index.php/Main_Page)
 - 2016 Android Userspace 100% Clang (Google Pixel) (kernel was working at this time, but was punted to Pixel 2)
-- 2017 Google Pixel 2 ships first Clang built kernel
+- 2017 
+  - Google Pixel 2 ships first Clang built kernel
+  - [Clang patch stacks for LTS kernels (v4.4 and v4.9) and status update](https://lkml.org/lkml/2017/8/22/912)
+  - [Clang patch stacks for LTS kernels and status update](https://lkml.org/lkml/2017/11/22/943)
 - 2018 ChromeOS starts shipping Clang built kernels
   - [start](https://chromium-review.googlesource.com/c/chromiumos/overlays/chromiumos-overlay/+/809774/)
   - [moved to default](https://chromium-review.googlesource.com/c/chromiumos/overlays/chromiumos-overlay/+/1294370)
