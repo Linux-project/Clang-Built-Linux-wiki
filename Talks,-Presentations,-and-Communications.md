@@ -29,6 +29,7 @@
 - **Linaro Connect 2019**
   - [abstract](https://bkk19.sched.com/event/L2H5/bkk19-112-building-the-linux-kernel-with-clang)
   - [slides](https://static.sched.com/hosted_files/bkk19/b5/Linaro%20Connect%20%2719.pdf)
+  - [video](https://connect.linaro.org/resources/bkk19/bkk19-112/)
 
 # Blog Posts
 - [Control Flow Integrity in the Android kernel](https://android-developers.googleblog.com/2018/10/control-flow-integrity-in-android-kernel.html)
