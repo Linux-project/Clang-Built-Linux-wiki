@@ -9,6 +9,7 @@
     - [commits](http://git.linuxfoundation.org/?p=llvmlinux.git;a=shortlog;pg=22)
     - [archive](https://web.archive.org/web/20171024235142/http://llvm.linuxfoundation.org/index.php/Main_Page)
 - 2016
+  - [LLVMLinux post asking about project status](https://lists.linuxfoundation.org/pipermail/llvmlinux/2016-November/001494.html)
   - Android Userspace 100% Clang (Google Pixel)
   - [Pixel kernel was working](https://android-review.googlesource.com/q/topic:%22marlin-nougat-mr1-clang%22) at this time, but feature was punted to Pixel 2
 - 2017 
