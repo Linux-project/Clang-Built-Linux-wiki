@@ -13,6 +13,7 @@
   - Android Userspace 100% Clang (Google Pixel)
   - [Pixel kernel was working](https://android-review.googlesource.com/q/topic:%22marlin-nougat-mr1-clang%22) at this time, but feature was punted to Pixel 2
 - 2017 
+  - [x86_64 kernel built with Clang and linked with LLD](https://www.phoronix.com/scan.php?page=news_item&px=Linux-Kernel-LLD-Linking)
   - Google Pixel 2 ships first Clang built kernel
   - [Clang patch stacks for LTS kernels (v4.4 and v4.9) and status update](https://lkml.org/lkml/2017/8/22/912)
   - [Clang patch stacks for LTS kernels and status update](https://lkml.org/lkml/2017/11/22/943)
