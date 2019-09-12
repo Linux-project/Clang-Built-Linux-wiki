@@ -32,6 +32,7 @@
   - [video](https://connect.linaro.org/resources/bkk19/bkk19-112/)
 - **Linux Plumbers Conference 2019**
   - [abstract](https://linuxplumbersconf.org/event/4/contributions/521/)
+  - [slides](https://linuxplumbersconf.org/event/4/contributions/521/attachments/355/586/LPC-2019-toolchains-ClangBuiltLinux.pdf)
 
 # Blog Posts
 - [Control Flow Integrity in the Android kernel](https://android-developers.googleblog.com/2018/10/control-flow-integrity-in-android-kernel.html)
